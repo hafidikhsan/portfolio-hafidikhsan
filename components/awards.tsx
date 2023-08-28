@@ -45,8 +45,8 @@ function Award({title, description, imageUrl}: ProjectProps) {
               opacity: opacityProgess,
           }}
           className='group mb-4'>
-          <div className="max-w-sm sm:h-[28rem] bg-blue-800 rounded-lg shadow flex flex-col">
-              <Image 
+          <div className="max-w-sm sm:h-[28rem] bg-blue-800 rounded-lg shadow flex flex-col hover:bg-blue-900 transition">
+            <Image 
                   src={imageUrl}
                   alt={title}
                   className="rounded-t-lg"

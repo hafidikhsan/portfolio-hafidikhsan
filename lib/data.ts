@@ -59,7 +59,7 @@ export const experiencesData = [
     title: "Develop IELTS Speaking Simulation",
     location: "Bandung, West Java",
     description:
-      "Developing an IELTS Speaking Simulation for College Capstone Project as a Machine Learning Developer.",
+      "Developing an IELTS Speaking Simulation App for College Capstone Project as a Machine Learning Developer.",
     icon: React.createElement(FaPython),
     date: "2022 - 2023",
   },
