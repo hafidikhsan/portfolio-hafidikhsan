@@ -3,6 +3,9 @@ import uiuxImg from "@/public/uiux.png";
 import baturImg from "@/public/batur.png";
 import ieltsImg from "@/public/ielts.png";
 import mpbeImg from "@/public/mpbe.png";
+import flutterImg from "@/public/Dicoding Flutter Expert.jpg";
+import iosImg from "@/public/Dicoding Belajar Fundamental IOS.png";
+import mlImg from "@/public/Dicoding Belajar Pengembangan Machine Learning.png";
 import { FaGraduationCap, FaBook, FaGuitar, FaMicroscope } from "react-icons/fa";
 import { FaCamera, FaCode, FaPython } from "react-icons/fa6";
 
@@ -135,4 +138,31 @@ export const othersSkillsData = [
     "VS Code",
     "Github",
     "Git",
+] as const;
+
+export const certifData = [
+  {
+    title: "Flutter Developer Expert",
+    description:
+      "Dicoding Indonesia (Apr 2022 - Apr 2025)",
+    tags: ["Flutter", "Dart", "Programming", "OOP"],
+    imageUrl: flutterImg,
+    url: "https://www.dicoding.com/certificates/GRX5LN6QVP0M",
+  },
+  {
+    title: "iOS Application Fundamentals",
+    description:
+      "Dicoding Indonesia (Sep 2022 - Sep 2025)",
+    tags: ["SwiftUI", "Swift", "Programming", "OOP"],
+    imageUrl: iosImg,
+    url: "https://www.dicoding.com/certificates/6RPNDE0G5Z2M",
+  },
+  {
+    title: "Machine Learning Development",
+    description:
+      "Dicoding Indonesia (Jan 2023 - Jan 2026)",
+    tags: ["Machine Learning", "Deep Learning", "Python", "Programming", "TensorFlow"],
+    imageUrl: mlImg,
+    url: "https://www.dicoding.com/certificates/L4PQ62VVQPO1",
+  },
 ] as const;

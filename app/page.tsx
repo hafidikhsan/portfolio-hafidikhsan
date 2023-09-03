@@ -5,6 +5,7 @@ import Footer from '@/components/footer'
 import Intro from '@/components/intro'
 import Projects from '@/components/projects'
 import Skills from '@/components/skills'
+import Certification from '@/components/certification'
 import Image from 'next/image'
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <About />
       <Educations />
       <Awards />
+      <Certification />
       <Projects />
       <Skills />
       <Footer />
