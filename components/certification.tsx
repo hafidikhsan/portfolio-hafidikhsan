@@ -11,7 +11,7 @@ export default function Certification() {
   return (
     <div>
         <h2 className='text-3xl font-bold capitalize mb-8 text-center'>
-            Certification
+            Certifications
         </h2>
         <div>
             {

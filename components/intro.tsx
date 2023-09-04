@@ -44,12 +44,12 @@ export default function Intro() {
             <span className='font-bold italic'>Flutter </span>
             <span>and </span>
             <span className='font-bold italic'>Next.JS </span>
-            <span>and </span>
+            <span>and a </span>
             <span className='font-bold'>Machine Learning Developer </span>
             <span>with </span>
             <span className='font-bold italic'>TensorFlow </span>
             <span>and </span>
-            <span className='font-bold italic'>Transformers.</span>
+            <span className='font-bold italic'>Transformers</span>
         </motion.h1>
 
         <motion.div 

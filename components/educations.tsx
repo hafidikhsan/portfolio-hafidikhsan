@@ -8,8 +8,8 @@ import 'react-vertical-timeline-component/style.min.css';
 export default function Educations() {
   return (
     <div className="mb-16">
-        <h2 className='text-3xl font-bold capitalize mb-8 text-center'>
-            Education and Experience
+        <h2 className='text-3xl font-bold mb-8 text-center'>
+            Educations and Experiences
         </h2>
         <VerticalTimeline lineColor={ "#9ca3af" }>
           {
