@@ -4,7 +4,7 @@ import React from 'react'
 import Image from 'next/image';
 import { motion } from 'framer-motion'
 import { HiDownload } from "react-icons/hi";
-import { FaGithubSquare, FaInstagram, FaLinkedin, FaGooglePlusSquare } from "react-icons/fa";
+import { FaGithubSquare, FaInstagram, FaLinkedin, FaGooglePlusSquare, FaFilePdf } from "react-icons/fa";
 
 export default function Intro() {
   return (
@@ -67,6 +67,13 @@ export default function Intro() {
                 Download CV <HiDownload />
             </a>
             <div className='flex flex-row gap-3 py-4'>
+                <a 
+                    className='bg-blue-800 text-gray-400 p-4 flex items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-white active:scale-105 active:text-white transition cursor-pointer borderBlack'
+                    href='/Portfolio Hafid Ikhsan Arifin.pdf'
+                    download={true}
+                >
+                    <FaFilePdf />
+                </a>
                 <a 
                     className='bg-blue-800 text-gray-400 p-4 flex items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-white active:scale-105 active:text-white transition cursor-pointer borderBlack'
                     href='mailto:hafidikhsanarifin@gmail.com'

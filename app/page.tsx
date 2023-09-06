@@ -6,7 +6,6 @@ import Intro from '@/components/intro'
 import Projects from '@/components/projects'
 import Skills from '@/components/skills'
 import Certification from '@/components/certification'
-import Image from 'next/image'
 
 export default function Home() {
   return (
