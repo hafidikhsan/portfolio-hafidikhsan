@@ -69,8 +69,8 @@ export default function Intro() {
             <div className='flex flex-row gap-3 py-4'>
                 <a 
                     className='bg-blue-800 text-gray-400 p-4 flex items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-white active:scale-105 active:text-white transition cursor-pointer borderBlack'
-                    href='/Portfolio Hafid Ikhsan Arifin.pdf'
-                    download={true}
+                    href='https://drive.google.com/file/d/1L8E93gAskmKP1zGejdMGNKmK6GAjrSWC/view?usp=sharing'
+                    target='_blank'
                 >
                     <FaFilePdf />
                 </a>
