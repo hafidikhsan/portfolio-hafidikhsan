@@ -17,25 +17,10 @@ export default function About() {
             About Me
         </h2>
         <p>
-            After graduating from Telkom University Bandung majoring 
-            in Bachelor of Computer Engineering, I'm a person who 
-            is highly interested and very 
-            passionate about front-end web development 
-            using React, Next.JS, and Tailwind CSS, and also 
-            mobile development using SwiftUI 
-            and Flutter. I have loved slicing from UI Design to 
-            a program for almost 3 years. In the last 1 year, I have 
-            also learned about machine learning, especially 
-            speech and text processing using TensorFlow and 
-            Transformers for my final Capstone Project.
+            After graduating from Telkom University in Bandung with a Bachelor's degree in Computer Engineering, I am deeply passionate about mobile development using SwiftUI and Flutter and also web development using React, Next.js, TypeScript, and Tailwind CSS. During my academic journey, I participated in a Certified Independent Study program sponsored by the Indonesian government through Dicoding Indonesia as a multi-platform and back-end developer. Over the past three years, I have been transforming UI designs into functional programs. In the last year, I also ventured into machine learning, specifically focusing on speech and text processing using TensorFlow and Transformers for my final Capstone Project.
         </p>
         <p>
-            Another activity that I love is UI Design, playing 
-            musical instruments such as guitar or drum, watching 
-            movies, watching sports like football or F1, and doing sports like 
-            football or badminton. I also enjoy learning 
-            new thinks. I'm an organized person and ready 
-            to accept new challenges to be the best I can be.
+            In addition to my primary interests, I also have a keen passion for tech, design, finance, and science. I am an enthusiast of music, movies, and sports, particularly football and Formula 1. I am confident in my capacity to swiftly learn and adapt to new technologies and environments. I eagerly embrace new challenges and consistently aim to be the best version of myself.
         </p>
     </motion.div>
   )
